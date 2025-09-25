@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Entornos
+.env
+.venv/
+venv/
+ENV/
+
+# Base de datos local
+*.db
+
+# Modelos descargados (HuggingFace, Torch)
+*.bin
+*.pt
+*.ckpt
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
