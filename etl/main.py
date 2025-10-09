@@ -15,7 +15,7 @@ def run_etl():
     print("Load...")
     load_articles(normalized)
 
-    print("ETL Pipeline finished, Kitsune part 1 completed!", len(normalized), "registers inserted.")
+    print("ETL pipeline finished, Kitsune part 1 completed!", len(normalized), "registers inserted.")
 
 if __name__ == "__main__":
     run_etl()
